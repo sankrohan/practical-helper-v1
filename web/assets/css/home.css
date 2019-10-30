@@ -1,0 +1,300 @@
+/* HEADERWRAP */
+#headerwrap {
+    background-color: #010203;
+    margin-top: 3.1em;
+    padding-top: 120px;
+    background-attachment: scroll;
+    min-height: 450px;
+}
+.user{
+    position: fixed;
+    float: left;
+    margin-left: 695px;
+    color: white;
+    font-size: 17px;
+}
+.user img{
+    position: fixed;
+    float: left;
+    margin-left: -45px;
+    margin-top: 10px;
+}
+#headerwrap p {
+	color:#ffffff;
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+}
+
+header{
+	display: block;
+}
+/* CONTAINER */
+body{
+	margin:0px;
+}
+
+/* NAVBAR */
+#top {
+    position:fixed;
+    vertical-align: top;
+    background-color:black;
+    height:3em;
+    width:100%;
+    z-index:100;
+    left:0;
+    top:0;
+}
+#right {
+    position: fixed;
+    right: 0px;
+    top: 3em;
+    width: 350px;
+    height: 100%;
+    background-color: lightgrey;
+    z-index: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  font-size: 16px;
+  color: white;
+  border: 0px;
+  background-color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+}
+button:hover{
+    background-color: red;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#login{
+    position: fixed;
+    float: left;
+    margin-left: 695px;
+}
+#login img{
+    position: fixed;
+    float: left;
+    margin-left: -45px;
+    margin-top: -4px;
+}
+#register{
+    position: fixed;
+    float: left;
+    margin-left: 765px;
+}
+#left {
+  position:fixed;
+  left: 0px;
+  top: 3em;
+  width:200px;
+  height:100%;
+  background-color:lightgrey;
+  padding-left:1.5em;
+}
+
+#content {
+  top: 3em;
+  position:relative;
+  margin-left: 225px;
+  padding:5px;
+  margin-bottom:85px;
+
+}
+
+#bottom {
+  background-color: black;
+  color: white;
+  left: 0;
+  right: 0;
+  position:fixed;
+  padding:5px;
+  bottom:0;
+}
+#practical-input{
+width: 90%;
+height: auto;
+padding: 10px;
+font-size: 20px;
+background-color: lightgrey;
+}
+#practical-output{
+        width: auto;
+        height: auto;
+        padding: 10px;
+        margin: 0;
+        background-color: lightgrey;
+}
+#comment-box{
+  top: 5em;
+  position: relative;
+  padding: 5px;
+  margin-left: 20px;
+}
+#comment-box textarea{
+  height: 200px;
+  width: 75%;
+}
+#topic{
+  top: 5em;
+  position: relative;
+  padding: 5px;
+}
+
+/* TAB */
+.tab {
+  float: left;
+  overflow: auto;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab li {
+  overflow: none;
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tab li:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab li.active {
+  background-color: #ccc;
+}
+  /* width renoved */
+/* Style the tab content */
+.tabcontent {
+  background-color:white ;
+  padding: 1.8px 50px;
+  border: none;
+  text-align: left;
+  padding-left:25%;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width:920px)
+{
+.tab {
+  visibility: hidden;
+  position: fixed;
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+.tabcontent {
+  padding: 100px 50px;
+  border:none;
+}
+.tab li {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 10px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+}
+
+
+#typed{
+  font-size: 80px;
+  text-align: center;
+  color:#39ff14;
+}
+.typed-cursor {
+    color: #39ff14;
+    font-size: 80px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
