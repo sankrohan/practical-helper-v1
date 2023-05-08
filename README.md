@@ -1,7 +1,7 @@
 # practical-helper-v1
 
 (THIS IS OLD, DONT USE THIS)
-(EVEN I HAVE FORGOTTEN WHAT WAS THIS)
+(EVEN I HAVE FORGOTTEN WHAT I WAS TRING TO DO)
 
 
 E-Learning Webiste, Includes programs of core java and can read and run them online through a compiler.
